@@ -1,5 +1,8 @@
 class Person < ActiveRecord::Base
 
+  has_many :roles
+  has_many :projects, :through => :roles
+
   # validates is a method, :symbols are db columns
   # presence: true is like the old hash rocket :presence => true
   validates :first_name, presence: true

@@ -1,4 +1,13 @@
 <div class="project">
-  <h1><%= project.title %></h1>
+
+  <%= project_title_links(project) %>
+
+  <%= render project.roles %>
+  <%# The previous does this with a partial / shortcut wow!! %>
+  <%# project.roles.each do |this_role| %>
+  <!-- <div class="role"> -->
+   <!-- <div class="person-name"><%# this_role.person.name %></div> -->
+  <!-- </div> -->
+  <%# end %>
 
 </div>

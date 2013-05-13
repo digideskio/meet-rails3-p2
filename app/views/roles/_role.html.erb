@@ -1,0 +1,7 @@
+<div class="role">
+  <div class="person-name"><%= role.person.name %></div>
+  <div class="role-title"><%= role.title %></div>
+  <%# dom_id(active_record_object) helper. it takes the name of the object it examines the name it represents and gets the id of the record. it's normally used for id, hence the name. %>
+  <div class="status-title <%=dom_id(role.status)%>"><%= role.status.title %></div>
+  <div class="time" datetime="<%= role.updated_at %>"><%= role.updated_at.to_formatted_s(:short) %></div>
+</div>
