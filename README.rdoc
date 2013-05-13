@@ -1,5 +1,7 @@
 == README
 
+I'm using comments in the code to help me as a reference. This app is from the PeepCode video Meet Rails3 Part 2. It's serving as a refresh to the Web Dev course from The Starter League for me. I'm also running Rails 4.0.0.rc1 so it's interesting to see how that is...
+
 This README would normally document whatever steps are necessary to get the application up and running.
 
 Things you may want to cover:
